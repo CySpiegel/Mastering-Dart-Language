@@ -12,4 +12,14 @@ void main() {
         }, "Calvin"),
         5);
   });
+
+  test('list_keys', () {
+    expect(
+        list_keys({
+          "David": 10,
+          "Calvin": 5,
+          "Clair": 5,
+        }),
+        ["David", "Calvin", "Clair"]);
+  });
 }
