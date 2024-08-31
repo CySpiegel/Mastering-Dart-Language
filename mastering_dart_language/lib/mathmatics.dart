@@ -1,4 +1,3 @@
-import 'dart:typed_data';
 import 'dart:math';
 
 double multiplication(double a, double b) {
@@ -6,9 +5,21 @@ double multiplication(double a, double b) {
 }
 
 double division() {
-  return 10/0;
+  return 10 / 0;
 }
 
 num exponent() {
   return pow(2, 4);
+}
+
+num rounding(double a) {
+  return a.roundToDouble();
+}
+
+num ceiling(double a) {
+  return a.ceil();
+}
+
+num floor(double a) {
+  return a.floor();
 }
