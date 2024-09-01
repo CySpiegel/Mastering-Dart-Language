@@ -1,4 +1,4 @@
-import 'package:mastering_dart_language/data_structures.dart';
+import 'package:mastering_dart_language/lists.dart';
 import 'package:test/test.dart';
 
 void main() {
