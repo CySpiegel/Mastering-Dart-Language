@@ -1,3 +1,3 @@
-String fix_string(String message) {
+String removeLetterFromString(String message) {
   return message.replaceAll("x", "");
 }

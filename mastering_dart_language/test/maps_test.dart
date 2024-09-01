@@ -5,7 +5,7 @@ void main() {
   // Remove key from map and return value at the same time
   test('remove_from_map', () {
     expect(
-        remove_from_map({
+        removeFromMap({
           "David": 10,
           "Calvin": 5,
           "Clair": 5,
@@ -15,7 +15,7 @@ void main() {
 
   test('list_keys', () {
     expect(
-        list_keys({
+        listKeysInMap({
           "David": 10,
           "Calvin": 5,
           "Clair": 5,

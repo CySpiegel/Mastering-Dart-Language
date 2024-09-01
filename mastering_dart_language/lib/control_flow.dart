@@ -1,4 +1,4 @@
-String adult_check(num age) {
+String adultCheck(num age) {
   String message = "";
   if (age < 18) {
     message = "You are a minor";

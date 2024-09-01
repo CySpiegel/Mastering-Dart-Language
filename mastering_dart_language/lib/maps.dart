@@ -1,7 +1,7 @@
-num remove_from_map(Map mymap, String name) {
+num removeFromMap(Map mymap, String name) {
   return mymap.remove(name);
 }
 
-List list_keys(Map mymap) {
+List listKeysInMap(Map mymap) {
   return mymap.keys.toList();
 }
