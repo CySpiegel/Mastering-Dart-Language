@@ -1,5 +1,3 @@
-import 'dart:math';
-
 num sumOfNumbers(List mylist) {
   num sum = 0;
   for (var item in mylist) {
