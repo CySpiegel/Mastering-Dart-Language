@@ -14,3 +14,13 @@ List printKeysOfMap(Map mymap) {
   }
   return keyList;
 }
+
+List foreEachInMap(Map mymap) {
+  List keyList = [];
+  mymap.forEach((key, value) {
+    print("{Key: $key, Value: $value}");
+    keyList.add(key);
+  });
+
+  return keyList;
+}

@@ -10,4 +10,9 @@ void main() {
     expect(
         printKeysOfMap({"1": 1, "2": 2, "3": 3, "4": 4}), ["1", "2", "3", "4"]);
   });
+
+  test('foreEachInMap', () {
+    expect(
+        foreEachInMap({"1": 1, "2": 2, "3": 3, "4": 4}), ["1", "2", "3", "4"]);
+  });
 }
