@@ -53,3 +53,15 @@ List onlyEvenLoopList(List myList) {
   }
   return evenList;
 }
+
+List firstTenEvenNumbers() {
+  List numbers = [];
+  int count = 0;
+  do {
+    count++;
+    if (count % 2 == 0) {
+      numbers.add(count);
+    }
+  } while (numbers.length < 10);
+  return numbers;
+}
