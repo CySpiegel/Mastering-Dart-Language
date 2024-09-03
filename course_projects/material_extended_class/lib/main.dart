@@ -1,17 +1,20 @@
 import 'package:flutter/material.dart';
 
-// This is a standard application showing the basic implementation of a material
-// app. It does not conform to any design patterns.
-
+// This application was rewriten to use stateless widget class extension
 void main() {
-  runApp(MaterialApp(
-    theme:
-        ThemeData(brightness: Brightness.dark, primaryColor: Colors.blueGrey),
-    home: Scaffold(
+  runApp(MaterialApp(home: MyApp()));
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
-        title: Text("Appbar Title"),
+        title: Text('Hello World New!'),
       ),
-      body: Center(child: Text("Some text for child widget")),
-    ),
-  ));
+      body: Center(
+        child: Text("Some text in the center"),
+      ),
+    );
+  }
 }
